@@ -1,0 +1,101 @@
+|part5
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => SW[8].IN1
+SW[9] => SW[9].IN1
+LEDR[0] <= <GND>
+LEDR[1] <= <GND>
+LEDR[2] <= <GND>
+LEDR[3] <= <GND>
+LEDR[4] <= <GND>
+LEDR[5] <= <GND>
+LEDR[6] <= <GND>
+LEDR[7] <= <GND>
+LEDR[8] <= <GND>
+LEDR[9] <= <GND>
+HEX0[6] <= char_7seg:H0.port3
+HEX0[5] <= char_7seg:H0.port3
+HEX0[4] <= char_7seg:H0.port3
+HEX0[3] <= char_7seg:H0.port3
+HEX0[2] <= char_7seg:H0.port3
+HEX0[1] <= char_7seg:H0.port3
+HEX0[0] <= char_7seg:H0.port3
+HEX1[6] <= char_7seg:H0.port2
+HEX1[5] <= char_7seg:H0.port2
+HEX1[4] <= char_7seg:H0.port2
+HEX1[3] <= char_7seg:H0.port2
+HEX1[2] <= char_7seg:H0.port2
+HEX1[1] <= char_7seg:H0.port2
+HEX1[0] <= char_7seg:H0.port2
+HEX2[6] <= char_7seg:H0.port1
+HEX2[5] <= char_7seg:H0.port1
+HEX2[4] <= char_7seg:H0.port1
+HEX2[3] <= char_7seg:H0.port1
+HEX2[2] <= char_7seg:H0.port1
+HEX2[1] <= char_7seg:H0.port1
+HEX2[0] <= char_7seg:H0.port1
+
+
+|part5|mux_2bit_3to1:U0
+S[0] => M.IN0
+S[0] => M.IN0
+S[0] => M.IN0
+S[0] => M.IN0
+S[1] => M.IN1
+S[1] => M.IN1
+S[1] => M.IN1
+S[1] => M.IN1
+U[0] => M.IN1
+U[1] => M.IN1
+V[0] => M.IN1
+V[1] => M.IN1
+W[0] => M.IN1
+W[0] => M.IN1
+W[1] => M.IN1
+W[1] => M.IN1
+M[0] <= M.DB_MAX_OUTPUT_PORT_TYPE
+M[1] <= M.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|char_7seg:H0
+C[0] => Display1.IN0
+C[0] => Display1.IN0
+C[0] => Display2.IN0
+C[0] => Display3.IN0
+C[0] => Display1.IN0
+C[0] => Display1.IN0
+C[1] => Display1.IN1
+C[1] => Display1.IN1
+C[1] => Display2.IN1
+C[1] => Display3.IN1
+C[1] => Display1.IN1
+C[1] => Display1.IN1
+Display1[6] <= Display1.DB_MAX_OUTPUT_PORT_TYPE
+Display1[5] <= Display1.DB_MAX_OUTPUT_PORT_TYPE
+Display1[4] <= Display1.DB_MAX_OUTPUT_PORT_TYPE
+Display1[3] <= Display1.DB_MAX_OUTPUT_PORT_TYPE
+Display1[2] <= Display1.DB_MAX_OUTPUT_PORT_TYPE
+Display1[1] <= Display1.DB_MAX_OUTPUT_PORT_TYPE
+Display1[0] <= Display1.DB_MAX_OUTPUT_PORT_TYPE
+Display2[6] <= Display2.DB_MAX_OUTPUT_PORT_TYPE
+Display2[5] <= Display2.DB_MAX_OUTPUT_PORT_TYPE
+Display2[4] <= Display2.DB_MAX_OUTPUT_PORT_TYPE
+Display2[3] <= Display2.DB_MAX_OUTPUT_PORT_TYPE
+Display2[2] <= Display2.DB_MAX_OUTPUT_PORT_TYPE
+Display2[1] <= Display2.DB_MAX_OUTPUT_PORT_TYPE
+Display2[0] <= Display2.DB_MAX_OUTPUT_PORT_TYPE
+Display3[6] <= Display3.DB_MAX_OUTPUT_PORT_TYPE
+Display3[5] <= Display3.DB_MAX_OUTPUT_PORT_TYPE
+Display3[4] <= Display3.DB_MAX_OUTPUT_PORT_TYPE
+Display3[3] <= Display3.DB_MAX_OUTPUT_PORT_TYPE
+Display3[2] <= Display3.DB_MAX_OUTPUT_PORT_TYPE
+Display3[1] <= Display3.DB_MAX_OUTPUT_PORT_TYPE
+Display3[0] <= Display3.DB_MAX_OUTPUT_PORT_TYPE
+
+

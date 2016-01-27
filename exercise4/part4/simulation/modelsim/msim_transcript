@@ -1,0 +1,34 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do part4_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+W:/QuartusII/exercise4/part4 {W:/QuartusII/exercise4/part4/part4.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:13:52 on Oct 13,2015
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+W:/QuartusII/exercise4/part4" W:/QuartusII/exercise4/part4/part4.v 
+# -- Compiling module part4
+# ** Error: W:/QuartusII/exercise4/part4/part4.v(102): (vlog-2730) Undefined variable: 'g3'.
+# 
+# ** Error: W:/QuartusII/exercise4/part4/part4.v(102): (vlog-2730) Undefined variable: 'g2'.
+# 
+# ** Error: W:/QuartusII/exercise4/part4/part4.v(102): (vlog-2730) Undefined variable: 'g1'.
+# 
+# ** Error: W:/QuartusII/exercise4/part4/part4.v(102): (vlog-2730) Undefined variable: 'g0'.
+# 
+# End time: 10:13:52 on Oct 13,2015, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/altera/15.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./part4_run_msim_rtl_verilog.do line 8
+# C:/altera/15.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+W:/QuartusII/exercise4/part4 {W:/QuartusII/exercise4/part4/part4.v}"

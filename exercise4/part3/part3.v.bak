@@ -1,0 +1,15 @@
+module part3
+	
+
+endmodule
+
+module full_adder(ci,a,b,s,co);
+	input ci,a,b;
+	output s,co;
+	
+endmodule
+
+module mux_2_to_1(s,a,b,m);
+	input s,a,b;
+	output m;
+	m = 

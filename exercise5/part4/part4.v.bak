@@ -1,0 +1,10 @@
+module part4(enable,clk,clear,count);
+	input enable,clk,clear;
+	output reg [15:0]count;
+	
+	always @ (posedge clk or negedge clear)
+		if (~clear)
+			count <= 0;
+		else if (enable)
+			count <= count+1;
+endmodule

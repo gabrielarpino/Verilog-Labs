@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dW:/Quartus II/exercise3/part4/simulation/modelsim
+vpart4
+!s110 1444140479
+!i10b 1
+!s100 T^ShlS0;2ad_1i[Z=F]Nf1
+IO`oEi2j?]fg78N0k`KQ^]2
+V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1444138351
+8W:/Quartus II/exercise3/part4/part4.v
+FW:/Quartus II/exercise3/part4/part4.v
+L0 1
+OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1444140479.335000
+!s107 W:/Quartus II/exercise3/part4/part4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+W:/Quartus II/exercise3/part4|W:/Quartus II/exercise3/part4/part4.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+W:/Quartus II/exercise3/part4}

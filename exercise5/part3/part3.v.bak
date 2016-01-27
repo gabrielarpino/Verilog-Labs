@@ -1,0 +1,8 @@
+module part3(enable,clk,clear,count);
+	input enable,clk,clear;
+	output [7:0]count;
+	
+endmodule
+
+
+module tff(T,clk,res,Q);

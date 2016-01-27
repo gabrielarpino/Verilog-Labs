@@ -1,0 +1,9 @@
+module part2(SW,HEX0,HEX1);
+
+endmodule
+
+module comparator(a,b,c,z);
+	input a,b,c;
+	output z;
+	assign z = a&(b|c);
+endmodule

@@ -1,0 +1,27 @@
+module exercise6(w,r,z,clk);
+	input w,r,clk;
+	output z;
+	wire w0,w1,w2,w3,w4,w5,w5,w6,w7;
+	
+	dflip U0 (~r,clk,r,w0);
+	dflip U1 ((~w&&w0)|(~w&&w5)|(~w&&w6)|(~w&&w7)|(~w&&w8),clk,r,w1);
+	dflip U2 (~w&&w1,clk,r,w2);
+	dflip U3 (~w&&w2,clk,r,w3);
+	dflip U4 ((~w&&w3)|(~w&&w4),clk,r,w2);
+	dflip U5 ();
+	dflip U6 ();
+	dflip U7 ();
+	dflip U8 ();
+	
+	assign z = (w8 | w7);
+
+module dflip(D,clk,reset,Q);
+	input D, clk,reset;
+	output reg Q;
+	
+	always @(posedge clk or negedge reset)
+		if(~reset)
+			Q <= 0;
+		else
+			Q <= D;
+endmodule

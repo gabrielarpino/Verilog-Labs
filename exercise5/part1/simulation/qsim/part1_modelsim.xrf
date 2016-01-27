@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, W:/QuartusII/exercise5/part1/part1.v
+source_file = 1, dlatch.vwf
+source_file = 1, W:/QuartusII/exercise5/part1/simulation/dffpos.vwf
+source_file = 1, W:/QuartusII/exercise5/part1/simulation/dffneg.vwf
+source_file = 1, W:/QuartusII/exercise5/part1/db/part1.cbx.xml
+design_name = part1
+instance = comp, \Q~output , Q~output, part1, 1
+instance = comp, \clk~input , clk~input, part1, 1
+instance = comp, \D~input , D~input, part1, 1
+instance = comp, \Q~reg0 , Q~reg0, part1, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, part1, 1

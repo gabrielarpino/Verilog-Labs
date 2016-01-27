@@ -1,0 +1,10 @@
+module part5(clock_50,HEX0);
+	input clock_50;
+	output [6:0]HEX0;
+	
+endmodule
+
+module count_26(enable,clk,clear,Q);
+	input enable,clk,clear;
+	output [25:0]Q;
+	

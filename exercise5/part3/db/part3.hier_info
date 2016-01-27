@@ -1,0 +1,70 @@
+|part3
+enable => enable.IN1
+clk => clk.IN8
+clear => clear.IN8
+count[0] <= tflipflop:U0.port3
+count[1] <= tflipflop:U1.port3
+count[2] <= tflipflop:U2.port3
+count[3] <= tflipflop:U3.port3
+count[4] <= tflipflop:U4.port3
+count[5] <= tflipflop:U5.port3
+count[6] <= tflipflop:U6.port3
+count[7] <= tflipflop:U7.port3
+
+
+|part3|tflipflop:U0
+T => Q~reg0.ENA
+clk => Q~reg0.CLK
+res => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part3|tflipflop:U1
+T => Q~reg0.ENA
+clk => Q~reg0.CLK
+res => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part3|tflipflop:U2
+T => Q~reg0.ENA
+clk => Q~reg0.CLK
+res => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part3|tflipflop:U3
+T => Q~reg0.ENA
+clk => Q~reg0.CLK
+res => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part3|tflipflop:U4
+T => Q~reg0.ENA
+clk => Q~reg0.CLK
+res => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part3|tflipflop:U5
+T => Q~reg0.ENA
+clk => Q~reg0.CLK
+res => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part3|tflipflop:U6
+T => Q~reg0.ENA
+clk => Q~reg0.CLK
+res => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part3|tflipflop:U7
+T => Q~reg0.ENA
+clk => Q~reg0.CLK
+res => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

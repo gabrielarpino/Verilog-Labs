@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dW:/Quartus II/exercise3/part5/simulation/qsim
+vpart5
+Z1 !s110 1444139909
+!i10b 1
+!s100 Rd:o9DIcVQ_7K`N7mNdd@0
+IDhHDc:I1HZnH5Mnz<U_d01
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1444139908
+8part5.vo
+Fpart5.vo
+L0 32
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1444139909.277000
+!s107 part5.vo|
+!s90 -work|work|part5.vo|
+!i113 1
+Z4 o-work work
+vpart5_vlg_check_tst
+R1
+!i10b 1
+!s100 G^=FOCL[IB@>8Z5G<WHU@0
+IT4VFf]ZbI26<7joSSR`Aa3
+R2
+R0
+Z5 w1444139906
+Z6 8simulation.vwf.vt
+Z7 Fsimulation.vwf.vt
+L0 58
+R3
+r1
+!s85 0
+31
+Z8 !s108 1444139909.402000
+Z9 !s107 simulation.vwf.vt|
+Z10 !s90 -work|work|simulation.vwf.vt|
+!i113 1
+R4
+vpart5_vlg_sample_tst
+R1
+!i10b 1
+!s100 Xz]XW6BFF@^_OXI5]TF0Q2
+I]zOCFl?Fd;WiB0<4JaPda3
+R2
+R0
+R5
+R6
+R7
+L0 30
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
+vpart5_vlg_vec_tst
+R1
+!i10b 1
+!s100 TKeZohWID^o5XJ<m[bz813
+I6YG?niFF_>][Sfdi?>CYb1
+R2
+R0
+R5
+R6
+R7
+L0 533
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4

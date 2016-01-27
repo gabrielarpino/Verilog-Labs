@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'counter_16bit:U0|count[0]'
+Slack : -46.350
+TNS   : -663.835
+
+Type  : Slow 1100mV 85C Model Setup 'counter_16bit:U0|count[10]'
+Slack : -42.364
+TNS   : -840.327
+
+Type  : Slow 1100mV 85C Model Setup 'KEY[0]'
+Slack : -7.014
+TNS   : -97.680
+
+Type  : Slow 1100mV 85C Model Hold 'counter_16bit:U0|count[10]'
+Slack : -19.139
+TNS   : -466.699
+
+Type  : Slow 1100mV 85C Model Hold 'KEY[0]'
+Slack : -6.836
+TNS   : -40.823
+
+Type  : Slow 1100mV 85C Model Hold 'counter_16bit:U0|count[0]'
+Slack : -2.755
+TNS   : -49.998
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'counter_16bit:U0|count[10]'
+Slack : -13.879
+TNS   : -61834.304
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'counter_16bit:U0|count[0]'
+Slack : -0.581
+TNS   : -39.933
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.394
+TNS   : -11.118
+
+Type  : Slow 1100mV 0C Model Setup 'counter_16bit:U0|count[0]'
+Slack : -46.443
+TNS   : -678.994
+
+Type  : Slow 1100mV 0C Model Setup 'counter_16bit:U0|count[10]'
+Slack : -42.498
+TNS   : -853.540
+
+Type  : Slow 1100mV 0C Model Setup 'KEY[0]'
+Slack : -6.617
+TNS   : -91.746
+
+Type  : Slow 1100mV 0C Model Hold 'counter_16bit:U0|count[10]'
+Slack : -19.982
+TNS   : -487.581
+
+Type  : Slow 1100mV 0C Model Hold 'KEY[0]'
+Slack : -6.709
+TNS   : -42.288
+
+Type  : Slow 1100mV 0C Model Hold 'counter_16bit:U0|count[0]'
+Slack : -2.779
+TNS   : -51.340
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'counter_16bit:U0|count[10]'
+Slack : -14.922
+TNS   : -65879.491
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'counter_16bit:U0|count[0]'
+Slack : -0.722
+TNS   : -47.658
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.394
+TNS   : -10.294
+
+Type  : Fast 1100mV 85C Model Setup 'counter_16bit:U0|count[0]'
+Slack : -27.159
+TNS   : -354.745
+
+Type  : Fast 1100mV 85C Model Setup 'counter_16bit:U0|count[10]'
+Slack : -25.201
+TNS   : -470.657
+
+Type  : Fast 1100mV 85C Model Setup 'KEY[0]'
+Slack : -5.483
+TNS   : -77.969
+
+Type  : Fast 1100mV 85C Model Hold 'counter_16bit:U0|count[10]'
+Slack : -10.062
+TNS   : -237.211
+
+Type  : Fast 1100mV 85C Model Hold 'KEY[0]'
+Slack : -3.809
+TNS   : -22.440
+
+Type  : Fast 1100mV 85C Model Hold 'counter_16bit:U0|count[0]'
+Slack : -1.479
+TNS   : -25.370
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'counter_16bit:U0|count[10]'
+Slack : -7.219
+TNS   : -28840.596
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.337
+TNS   : -5.581
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'counter_16bit:U0|count[0]'
+Slack : -0.119
+TNS   : -3.239
+
+Type  : Fast 1100mV 0C Model Setup 'counter_16bit:U0|count[0]'
+Slack : -24.665
+TNS   : -333.815
+
+Type  : Fast 1100mV 0C Model Setup 'counter_16bit:U0|count[10]'
+Slack : -22.876
+TNS   : -438.497
+
+Type  : Fast 1100mV 0C Model Setup 'KEY[0]'
+Slack : -4.508
+TNS   : -63.253
+
+Type  : Fast 1100mV 0C Model Hold 'counter_16bit:U0|count[10]'
+Slack : -9.561
+TNS   : -225.983
+
+Type  : Fast 1100mV 0C Model Hold 'KEY[0]'
+Slack : -3.724
+TNS   : -21.963
+
+Type  : Fast 1100mV 0C Model Hold 'counter_16bit:U0|count[0]'
+Slack : -1.355
+TNS   : -24.177
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'counter_16bit:U0|count[10]'
+Slack : -6.944
+TNS   : -27455.461
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.318
+TNS   : -5.249
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'counter_16bit:U0|count[0]'
+Slack : -0.102
+TNS   : -2.133
+
+------------------------------------------------------------

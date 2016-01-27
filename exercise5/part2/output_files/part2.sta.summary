@@ -1,0 +1,197 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'register8bit:U1|Q[1]'
+Slack : -23.362
+TNS   : -518.945
+
+Type  : Slow 1100mV 85C Model Setup 'register8bit:U1|Q[0]'
+Slack : -23.257
+TNS   : -411.203
+
+Type  : Slow 1100mV 85C Model Setup 'SW[0]'
+Slack : -17.844
+TNS   : -277.897
+
+Type  : Slow 1100mV 85C Model Setup 'KEY[1]'
+Slack : -1.497
+TNS   : -1.497
+
+Type  : Slow 1100mV 85C Model Hold 'SW[0]'
+Slack : -15.348
+TNS   : -159.203
+
+Type  : Slow 1100mV 85C Model Hold 'register8bit:U1|Q[1]'
+Slack : -9.245
+TNS   : -94.137
+
+Type  : Slow 1100mV 85C Model Hold 'register8bit:U1|Q[0]'
+Slack : -9.088
+TNS   : -81.679
+
+Type  : Slow 1100mV 85C Model Hold 'KEY[1]'
+Slack : -1.923
+TNS   : -1.923
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'register8bit:U1|Q[1]'
+Slack : -8.421
+TNS   : -2424.178
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'SW[0]'
+Slack : -8.324
+TNS   : -2206.750
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'register8bit:U1|Q[0]'
+Slack : -8.171
+TNS   : -2199.825
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY[1]'
+Slack : -0.394
+TNS   : -5.556
+
+Type  : Slow 1100mV 0C Model Setup 'register8bit:U1|Q[1]'
+Slack : -23.514
+TNS   : -516.007
+
+Type  : Slow 1100mV 0C Model Setup 'register8bit:U1|Q[0]'
+Slack : -23.372
+TNS   : -409.900
+
+Type  : Slow 1100mV 0C Model Setup 'SW[0]'
+Slack : -18.388
+TNS   : -279.881
+
+Type  : Slow 1100mV 0C Model Setup 'KEY[1]'
+Slack : -1.136
+TNS   : -1.136
+
+Type  : Slow 1100mV 0C Model Hold 'SW[0]'
+Slack : -15.473
+TNS   : -158.958
+
+Type  : Slow 1100mV 0C Model Hold 'register8bit:U1|Q[1]'
+Slack : -9.804
+TNS   : -99.000
+
+Type  : Slow 1100mV 0C Model Hold 'register8bit:U1|Q[0]'
+Slack : -9.687
+TNS   : -86.659
+
+Type  : Slow 1100mV 0C Model Hold 'KEY[1]'
+Slack : -2.202
+TNS   : -2.202
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'register8bit:U1|Q[1]'
+Slack : -8.788
+TNS   : -2582.224
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'SW[0]'
+Slack : -8.721
+TNS   : -2352.190
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'register8bit:U1|Q[0]'
+Slack : -8.648
+TNS   : -2347.234
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY[1]'
+Slack : -0.394
+TNS   : -5.240
+
+Type  : Fast 1100mV 85C Model Setup 'register8bit:U1|Q[1]'
+Slack : -13.089
+TNS   : -291.882
+
+Type  : Fast 1100mV 85C Model Setup 'register8bit:U1|Q[0]'
+Slack : -12.851
+TNS   : -228.204
+
+Type  : Fast 1100mV 85C Model Setup 'SW[0]'
+Slack : -9.794
+TNS   : -164.691
+
+Type  : Fast 1100mV 85C Model Setup 'KEY[1]'
+Slack : -1.014
+TNS   : -1.014
+
+Type  : Fast 1100mV 85C Model Hold 'SW[0]'
+Slack : -8.285
+TNS   : -85.497
+
+Type  : Fast 1100mV 85C Model Hold 'register8bit:U1|Q[1]'
+Slack : -4.534
+TNS   : -45.065
+
+Type  : Fast 1100mV 85C Model Hold 'register8bit:U1|Q[0]'
+Slack : -4.409
+TNS   : -39.413
+
+Type  : Fast 1100mV 85C Model Hold 'KEY[1]'
+Slack : -1.052
+TNS   : -1.052
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'SW[0]'
+Slack : -4.287
+TNS   : -982.524
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'register8bit:U1|Q[1]'
+Slack : -3.988
+TNS   : -981.026
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'register8bit:U1|Q[0]'
+Slack : -3.770
+TNS   : -895.502
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY[1]'
+Slack : -0.340
+TNS   : -2.913
+
+Type  : Fast 1100mV 0C Model Setup 'register8bit:U1|Q[1]'
+Slack : -12.074
+TNS   : -270.844
+
+Type  : Fast 1100mV 0C Model Setup 'register8bit:U1|Q[0]'
+Slack : -11.906
+TNS   : -211.979
+
+Type  : Fast 1100mV 0C Model Setup 'SW[0]'
+Slack : -9.009
+TNS   : -148.847
+
+Type  : Fast 1100mV 0C Model Setup 'KEY[1]'
+Slack : -1.035
+TNS   : -1.035
+
+Type  : Fast 1100mV 0C Model Hold 'SW[0]'
+Slack : -8.063
+TNS   : -83.962
+
+Type  : Fast 1100mV 0C Model Hold 'register8bit:U1|Q[1]'
+Slack : -4.367
+TNS   : -43.456
+
+Type  : Fast 1100mV 0C Model Hold 'register8bit:U1|Q[0]'
+Slack : -4.284
+TNS   : -38.060
+
+Type  : Fast 1100mV 0C Model Hold 'KEY[1]'
+Slack : -1.005
+TNS   : -1.005
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'SW[0]'
+Slack : -4.063
+TNS   : -925.810
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'register8bit:U1|Q[1]'
+Slack : -3.761
+TNS   : -927.688
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'register8bit:U1|Q[0]'
+Slack : -3.559
+TNS   : -849.079
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY[1]'
+Slack : -0.320
+TNS   : -2.734
+
+------------------------------------------------------------

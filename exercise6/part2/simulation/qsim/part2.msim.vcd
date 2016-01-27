@@ -1,0 +1,476 @@
+$comment
+	File created using the following command:
+		vcd file part2.msim.vcd -direction
+$end
+$date
+	Tue Nov 03 09:44:20 2015
+$end
+$version
+	ModelSim Version 10.3d
+$end
+$timescale
+	1ps
+$end
+
+$scope module part2_vlg_vec_tst $end
+$var reg 1 ! KEY [0:0] $end
+$var reg 2 " SW [1:0] $end
+$var wire 1 # LEDR [9] $end
+$var wire 1 $ LEDR [8] $end
+$var wire 1 % LEDR [7] $end
+$var wire 1 & LEDR [6] $end
+$var wire 1 ' LEDR [5] $end
+$var wire 1 ( LEDR [4] $end
+$var wire 1 ) LEDR [3] $end
+$var wire 1 * LEDR [2] $end
+$var wire 1 + LEDR [1] $end
+$var wire 1 , LEDR [0] $end
+$var wire 1 - sampler $end
+
+$scope module i1 $end
+$var wire 1 . gnd $end
+$var wire 1 / vcc $end
+$var wire 1 0 unknown $end
+$var tri1 1 1 devclrn $end
+$var tri1 1 2 devpor $end
+$var tri1 1 3 devoe $end
+$var wire 1 4 ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 5 KEY[0]~input_o $end
+$var wire 1 6 KEY[0]~inputCLKENA0_outclk $end
+$var wire 1 7 SW[1]~input_o $end
+$var wire 1 8 y_Q~10_combout $end
+$var wire 1 9 SW[0]~input_o $end
+$var wire 1 : y_Q~5_q $end
+$var wire 1 ; Selector3~0_combout $end
+$var wire 1 < y_Q~7_q $end
+$var wire 1 = y_Q~8_combout $end
+$var wire 1 > y_Q~6_q $end
+$var wire 1 ? y_Q~9_combout $end
+$var wire 1 @ y_Q~4_q $end
+$var wire 1 A y_Q.A~0_combout $end
+$var wire 1 B y_Q.B~0_combout $end
+$var wire 1 C y_Q.C~0_combout $end
+$var wire 1 D y_Q.D~0_combout $end
+$var wire 1 E y_Q.E~0_combout $end
+$var wire 1 F y_Q.F~0_combout $end
+$var wire 1 G y_Q.G~0_combout $end
+$var wire 1 H y_Q.H~0_combout $end
+$var wire 1 I z~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b1 "
+1,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+x-
+0.
+1/
+x0
+11
+12
+13
+04
+05
+06
+07
+08
+19
+0:
+0;
+0<
+0=
+0>
+1?
+0@
+1A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+$end
+#20000
+b1 !
+15
+0-
+16
+1@
+1B
+0A
+0?
+18
+0,
+1+
+#40000
+b0 !
+05
+1-
+06
+#60000
+b1 !
+15
+0-
+16
+0@
+1:
+1C
+0B
+1?
+0+
+1*
+#80000
+b0 !
+05
+1-
+06
+#100000
+b1 !
+15
+0-
+16
+1@
+1D
+0C
+0?
+1=
+08
+0*
+1)
+#120000
+b0 !
+05
+1-
+06
+#140000
+b1 !
+15
+0-
+16
+0@
+1>
+0:
+1I
+1E
+0D
+0)
+1(
+1#
+#160000
+b0 !
+05
+1-
+06
+#180000
+b11 "
+b1 !
+17
+15
+0-
+16
+1?
+#200000
+b0 !
+05
+1-
+06
+#220000
+b1 !
+15
+0-
+16
+1@
+0I
+1F
+0E
+0?
+18
+0(
+1'
+0#
+#240000
+b0 !
+05
+1-
+06
+#260000
+b1 !
+15
+0-
+16
+0@
+1:
+1G
+0F
+1?
+0'
+1&
+#280000
+b0 !
+05
+1-
+06
+#300000
+b1 !
+15
+0-
+16
+1@
+1H
+0G
+0?
+0=
+1;
+08
+0&
+1%
+#320000
+b0 !
+05
+1-
+06
+#340000
+b1 !
+15
+0-
+16
+0@
+0>
+0:
+1<
+1$
+1I
+0H
+0%
+1#
+#360000
+b1 "
+b0 !
+07
+05
+1-
+06
+1?
+0;
+#380000
+b1 !
+15
+0-
+16
+1@
+0<
+0$
+0I
+1B
+0?
+18
+1+
+0#
+#400000
+b11 "
+b0 !
+17
+05
+1-
+06
+1?
+1=
+08
+#420000
+b1 !
+15
+0-
+16
+1>
+1F
+0B
+0?
+18
+0+
+1'
+#440000
+b1 "
+b0 !
+07
+05
+1-
+06
+1?
+0=
+08
+#460000
+b1 !
+15
+0-
+16
+0>
+0F
+1B
+0?
+18
+1+
+0'
+#480000
+b0 !
+05
+1-
+06
+#500000
+b1 !
+15
+0-
+16
+0@
+1:
+1C
+0B
+1?
+0+
+1*
+#520000
+b0 !
+05
+1-
+06
+#540000
+b1 !
+15
+0-
+16
+1@
+1D
+0C
+0?
+1=
+08
+0*
+1)
+#560000
+b0 "
+b0 !
+09
+05
+1-
+06
+0:
+0@
+0D
+1A
+1?
+0=
+1,
+0)
+#580000
+b1 !
+15
+0-
+16
+#600000
+b0 !
+05
+1-
+06
+#620000
+b1 !
+15
+0-
+16
+#640000
+b0 !
+05
+1-
+06
+#660000
+b1 !
+15
+0-
+16
+#680000
+b0 !
+05
+1-
+06
+#700000
+b1 !
+15
+0-
+16
+#720000
+b0 !
+05
+1-
+06
+#740000
+b1 !
+15
+0-
+16
+#760000
+b0 !
+05
+1-
+06
+#780000
+b1 !
+15
+0-
+16
+#800000
+b0 !
+05
+1-
+06
+#820000
+b1 !
+15
+0-
+16
+#840000
+b0 !
+05
+1-
+06
+#860000
+b1 !
+15
+0-
+16
+#880000
+b0 !
+05
+1-
+06
+#900000
+b1 !
+15
+0-
+16
+#920000
+b0 !
+05
+1-
+06
+#940000
+b1 !
+15
+0-
+16
+#960000
+b0 !
+05
+1-
+06
+#1000000

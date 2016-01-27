@@ -1,0 +1,46 @@
+module part2(SW,LEDR[0],HEX0,HEX1,HEX2,HEX3,HEX4,HEX5);
+	input [9:0]SW;
+	output [0:0]LEDR;
+	output [6:0]HEX0,HEX1,HEX2,HEX3,HEX4,HEX5;
+	
+endmodule
+
+
+module dec_8to7(in,out0,out1);
+	input [7:0]in;
+	output reg [6:0]out0,out1;
+	
+	always@(in)
+		case((in % 10))
+			0 : out0 = 0000001;
+			1 : out0 = 1001111;
+			2 : out0 = 0010010;
+			3 : out0 = 0000110;
+			4 : out0 = 1111111;
+			5 : out0 = 0100100;
+			6 : out0 = 0100000;
+			7 : out0 = 0001111;
+			8 : out0 = 0000000;
+			9 : out0 = 0000100;
+		endcase
+		
+		case((in / 10))
+			0 : out1 = 0000001;
+			1 : out1 = 1001111;
+			2 : out1 = 0010010;
+			3 : out1 = 0000110;
+			4 : out1 = 1111111;
+			5 : out1 = 0100100;
+			6 : out1 = 0100000;
+			7 : out1 = 0001111;
+			8 : out1 = 0000000;
+			9 : out1 = 0000100;
+		endcase
+endmodule
+
+module register8bit(D,clk,reset,Q)
+	input [7:0]D;
+	input clk,reset;
+	
+			
+	
